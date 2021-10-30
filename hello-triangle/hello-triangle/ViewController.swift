@@ -11,6 +11,11 @@ import QuartzCore
 
 class ViewController: UIViewController {
     
+    let vertexData:[Float] = [
+        0.0, 0.5, 0.0,
+        -0.5, -0.5, 0.0,
+        0.5, -0.5, 0.0]
+    
     var device:MTLDevice!
     var metalLayer:CAMetalLayer!
     
