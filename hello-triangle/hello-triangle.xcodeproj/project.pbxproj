@@ -13,6 +13,7 @@
 		029DB041272D294D00BFDECA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 029DB03F272D294D00BFDECA /* Main.storyboard */; };
 		029DB043272D294F00BFDECA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 029DB042272D294F00BFDECA /* Assets.xcassets */; };
 		029DB046272D294F00BFDECA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 029DB044272D294F00BFDECA /* LaunchScreen.storyboard */; };
+		02A0B5E3272D96BD0055D5E9 /* Shader.metal in Sources */ = {isa = PBXBuildFile; fileRef = 02A0B5E2272D96BD0055D5E9 /* Shader.metal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		029DB045272D294F00BFDECA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		029DB047272D294F00BFDECA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		029DB04D272D296500BFDECA /* hello-triangle.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "hello-triangle.entitlements"; sourceTree = "<group>"; };
+		02A0B5E2272D96BD0055D5E9 /* Shader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shader.metal; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				029DB039272D294D00BFDECA /* AppDelegate.swift */,
 				029DB03B272D294D00BFDECA /* SceneDelegate.swift */,
 				029DB03D272D294D00BFDECA /* ViewController.swift */,
+				02A0B5E2272D96BD0055D5E9 /* Shader.metal */,
 				029DB03F272D294D00BFDECA /* Main.storyboard */,
 				029DB042272D294F00BFDECA /* Assets.xcassets */,
 				029DB044272D294F00BFDECA /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02A0B5E3272D96BD0055D5E9 /* Shader.metal in Sources */,
 				029DB03E272D294D00BFDECA /* ViewController.swift in Sources */,
 				029DB03A272D294D00BFDECA /* AppDelegate.swift in Sources */,
 				029DB03C272D294D00BFDECA /* SceneDelegate.swift in Sources */,
