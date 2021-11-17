@@ -39,6 +39,7 @@ class ViewController: UIViewController {
         vertexBuffer = device.makeBuffer(bytes: vertexData,
                                          length: dataSize,
                                          options: [])
+        vertexBuffer.label = "vertices"
         
         let defaultLibrary = device.makeDefaultLibrary()
         let fragmentProgram = defaultLibrary?.makeFunction(name: "basic_fragment")
