@@ -19,3 +19,5 @@ vertex float4 basic_vertex(
 fragment half4 basic_fragment() {
     return half4(1.0);
 }
+
+// test_code
